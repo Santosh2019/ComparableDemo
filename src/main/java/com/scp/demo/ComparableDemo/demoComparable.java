@@ -19,10 +19,12 @@ public class demoComparable{
 		abc a1=new abc(8,"Aahir","MP");
 		abc a2=new abc(9,"tahir","GT");
 		abc a3=new abc(7,"Zahir","KA");
+		abc a4=new abc(10,"Shiv","Ap");
 		TreeSet<abc>set=new TreeSet<abc>(new bcd());
 		set.add(aa);
 		set.add(a1);
 		set.add(a2);
+		set.add(a4);
 		set.add(a3);
 		System.out.println(set);
 		//Collections.sort(set);
